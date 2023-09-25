@@ -1,0 +1,14 @@
+Q). What are Tags and elements in HTML?
+Ans: Tags- In Html, tags are use to define different parts of a web page, such as heading, 
+paragraph, list, images, and links. These tags are represented by angled brackets (<>) 
+and are surrounded by text. The opening tag contains information about the content that 
+follows, while the closing tag is used to close the tag and provide additional information.
+Example,
+<h1> h1 is opening tag for heading and </h1> is closing tag for heading 
+
+
+Elements- Elements, on the other hand, are the basic building blocks of a web page, and they
+are represented by a unique name (e.g. h1, p, li, etc.). 
+Example,
+li element contains all list items of a webpage. It has a opening tag <li> and closing tag 
+</li>.

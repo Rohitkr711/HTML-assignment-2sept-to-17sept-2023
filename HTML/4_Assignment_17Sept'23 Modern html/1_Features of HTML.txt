@@ -1,0 +1,10 @@
+Q).List out the features of HTML?
+Ans- HTML stands for hyper text markup language use for creating structure of webpages, it is a markup language not a programming language and it uses different tag for creating 
+web pages like html-tag, head-tag,body-tag etc.
+Some features of HTML are-
+-> Easy to learn and create
+-> It is platform independent
+-> Provides multimedia functionality
+-> Semantic tags increases usability and readability 
+-> Helpful in SEO
+ 

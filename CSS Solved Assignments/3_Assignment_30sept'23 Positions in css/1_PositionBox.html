@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position Box</title>
+</head>
+<style>
+    *{
+        margin: 0%;
+        padding: 0%;
+    }
+    .container{
+        
+        /* border: 2px solid; */
+        display: inline-block;
+        left: 165px;
+        width: 50%;
+        height: 100px;
+    }
+    .box{
+        display: inline-block;
+        background-color: aquamarine;
+        height: 50px;
+        width: 50px;
+        border: 2px solid;
+        text-align: center;
+    }
+    #box1{
+        position: absolute;
+        top: 200px;
+        left: 200px;
+    }
+    #box2{
+        position: absolute;
+        top: 165px;
+        left: 165px;
+    }
+    #box3{
+        position: absolute;
+        top: 165px;
+        left: 235px;
+    }
+    #box4{
+        position: absolute;
+        top: 235px;
+        left: 235px;
+    }
+    #box5{
+        position: absolute;
+        top: 235px;
+        left: 165px;
+    }
+    </style>
+<body>
+    <div class="container">
+        <div id="box1" class="box">A</div>
+        <div id="box2" class="box">B</div>
+        <div id="box3" class="box">C</div>
+        <div id="box4" class="box">D</div>
+        <div id="box5" class="box">E</div>
+    </div>
+</body>
+</html>

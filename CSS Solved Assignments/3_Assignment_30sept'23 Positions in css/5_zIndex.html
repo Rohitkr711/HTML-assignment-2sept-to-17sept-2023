@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Z-index</title>
+</head>
+<!-- 
+    Z-index -> In CSS, the `z-index` property is used to control the stacking order of elements on a web page. It determines the order in which elements are rendered on top of each other, with higher values appearing on top. Setting `z-index` can help you create complex, overlapping layouts and improve the overall visual hierarchy of your design.
+-->
+
+<style>
+img {
+position: absolute;
+left: 0px;
+top: 0px;
+z-index: -1;
+}
+</style>
+<body>
+    <h1>The z-index Property</h1>
+    <img src="../../../Img & Vid/pwlogo.jpeg" width="300" height="140">
+    <p>Because the image has a z-index of -1, it will be placed behind the heading.</p>
+</body>
+
+</html>

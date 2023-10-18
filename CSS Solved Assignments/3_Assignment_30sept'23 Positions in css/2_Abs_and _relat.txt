@@ -1,0 +1,4 @@
+Q3. Explain the difference between Absolute and relative positioning.
+Ans- Absolute positioning involves placing an element at a specific pixel position on the page, regardless of the size of the
+     viewport. Relative positioning, on the other hand, involves positioning an element in relation to its parent element. In other
+     words, the element's position is relative to its place on the page within its parent element, rather than a specific pixel location.   

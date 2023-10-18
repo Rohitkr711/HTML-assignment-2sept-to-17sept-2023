@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sticky header</title>
+</head>
+<style>
+    *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .navbar {
+            background-color: black;
+            padding: 20px;
+            border: 4px solid whitesmoke;
+            height: 30px;
+        }
+        
+        .navbar li {
+            list-style: none;
+            padding-right: 40px;           
+            display: inline-block;
+            
+        }
+        
+        .navbar ul {
+            overflow: auto;
+            padding-left: 20px;
+            position: absolute;
+            right: 180px;
+            top: 25px;
+    
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+        }        
+        input{
+            position: absolute;
+            right: 70px;
+            top: 15px;
+           background-color: black;
+           color: whitesmoke;
+           border: 3px solid red;
+           padding: 10px 10px;
+           border-radius: 12px;
+        }
+        #logo{
+            position: absolute;
+            left: 30px;
+            top: 25px;
+            color: white;
+        }
+
+        section{
+            margin-bottom: 25px;
+            padding: 0px 10px 0px 10px;
+        }
+        header{
+            height: 100px;
+            text-align: center;
+        }
+        .navbar{
+            position: sticky;
+            top: 0px;
+        }
+
+</style>
+<body>
+    <header>
+        <H3>Scroll down for Sticky effect</H3>
+    </header>
+    <nav class="navbar">
+        <h2 id="logo">LOGO</h2>
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Pricing</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="">Terms and Condition</a></li>
+        </ul>
+        <input type="button" value="Get Started">
+    </nav>
+    <main>
+
+        <section>
+            <h2>Heading 1</h2>
+            <p class="heading" id="h1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam dolorem harum commodi eligendi repudiandae blanditiis velit facere, architecto necessitatibus veritatis dolores accusantium culpa modi cumque, unde deserunt maxime consequatur est. Saepe cupiditate placeat laboriosam doloremque praesentium voluptatem soluta, sapiente aliquid architecto necessitatibus labore ducimus quasi in eos eum, laudantium, tenetur alias tempora fuga blanditiis sit voluptas corrupti ipsum. Rem quibusdam alias laudantium placeat? Corporis ducimus quasi asperiores doloribus, enim quisquam magnam eaque illum eius at accusamus repudiandae ex rem placeat commodi officia itaque. Quibusdam modi in quod vero ab maxime officia nihil eveniet iste, incidunt quas nam enim dolor excepturi. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur dolore natus quis corporis ut possimus! Minima, ab. Aut, vitae. Tenetur praesentium doloribus natus, sint nostrum fugit provident vel facilis? Aliquid corrupti delectus error ullam. Architecto maiores eius, eos repudiandae quaerat voluptatum placeat sunt soluta praesentium nulla molestias dolores tempora perspiciatis fugit eum ad nam voluptas velit. Dignissimos earum tempora repudiandae sed distinctio laborum, deserunt voluptatibus voluptatem blanditiis fugiat, quidem esse consequatur ratione porro aperiam non sunt ipsum sit quam, dolorem unde? Magni assumenda ut incidunt dolorem sapiente harum id et cumque nostrum officiis, explicabo autem temporibus ipsam possimus repellendus nobis!
+            </p>
+        </section>
+
+        <section>
+            <h2>Heading 2</h2>
+            
+            <p class="heading" id="h2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam dolorem harum commodi eligendi repudiandae blanditiis velit facere, architecto necessitatibus veritatis dolores accusantium culpa modi cumque, unde deserunt maxime consequatur est. Saepe cupiditate placeat laboriosam doloremque praesentium voluptatem soluta, sapiente aliquid architecto necessitatibus labore ducimus quasi in eos eum, laudantium, tenetur alias tempora fuga blanditiis sit voluptas corrupti ipsum. Rem quibusdam alias laudantium placeat? Corporis ducimus quasi asperiores doloribus, enim quisquam magnam eaque illum eius at accusamus repudiandae ex rem placeat commodi officia itaque. Quibusdam modi in quod vero ab maxime officia nihil eveniet iste, incidunt quas nam enim dolor excepturi. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore vitae nemo in eos, ullam vel voluptas dolore dolorem pariatur totam minima est reprehenderit deleniti sequi, minus eius laboriosam? Assumenda ad a saepe enim quibusdam impedit natus, in blanditiis perferendis debitis rem magni quas error quo inventore id deleniti repellat quaerat sed cum similique quae eos fugiat? Perferendis iusto repellendus iure iste laudantium soluta? Atque nemo ex, ad libero dolorum nulla omnis voluptatem quas voluptates numquam. Delectus quas optio velit. Possimus eligendi eaque temporibus architecto ipsa illum, autem iusto blanditiis cupiditate in expedita perferendis quo laborum explicabo totam. Blanditiis, enim tempora.
+            </p>
+        </section>
+            
+    <section>
+        <h2>Heading 3</h2>
+         
+        <p class="heading" id="h3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam dolorem harum commodi eligendi repudiandae blanditiis velit facere, architecto necessitatibus veritatis dolores accusantium culpa modi cumque, unde deserunt maxime consequatur est. Saepe cupiditate placeat laboriosam doloremque praesentium voluptatem soluta, sapiente aliquid architecto necessitatibus labore ducimus quasi in eos eum, laudantium, tenetur alias tempora fuga blanditiis sit voluptas corrupti ipsum. Rem quibusdam alias laudantium placeat? Corporis ducimus quasi asperiores doloribus, enim quisquam magnam eaque illum eius at accusamus repudiandae ex rem placeat commodi officia itaque. Quibusdam modi in quod vero ab maxime officia nihil eveniet iste, incidunt quas nam enim dolor excepturi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias aliquid assumenda reprehenderit cumque, iusto facilis laborum minus! Eligendi placeat sunt inventore ratione delectus, nam quia odio iusto tempora similique est sit voluptatum optio ab facere alias. Quaerat, perspiciatis eaque velit perferendis quo repudiandae ex ad beatae est exercitationem nemo in omnis tempora voluptatum amet id vitae eveniet deleniti eum, natus odit cumque culpa sapiente! Dicta provident, reiciendis unde tempore eius quasi et explicabo, distinctio quaerat quisquam sit consequatur illum repudiandae ducimus dolore magni laudantium dolorem impedit omnis optio voluptatum odit, reprehenderit nostrum. Facere provident dolorem ducimus autem obcaecati suscipit! Nulla!
+        </p>
+    </section>
+
+    <section>
+        <h2>Heading 4</h2>
+         
+        <p class="heading" id="h4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam dolorem harum commodi eligendi repudiandae blanditiis velit facere, architecto necessitatibus veritatis dolores accusantium culpa modi cumque, unde deserunt maxime consequatur est. Saepe cupiditate placeat laboriosam doloremque praesentium voluptatem soluta, sapiente aliquid architecto necessitatibus labore ducimus quasi in eos eum, laudantium, tenetur alias tempora fuga blanditiis sit voluptas corrupti ipsum. Rem quibusdam alias laudantium placeat? Corporis ducimus quasi asperiores doloribus, enim quisquam magnam eaque illum eius at accusamus repudiandae ex rem placeat commodi officia itaque. Quibusdam modi in quod vero ab maxime officia nihil eveniet iste, incidunt quas nam enim dolor excepturi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias aliquid assumenda reprehenderit cumque, iusto facilis laborum minus! Eligendi placeat sunt inventore ratione delectus, nam quia odio iusto tempora similique est sit voluptatum optio ab facere alias. Quaerat, perspiciatis eaque velit perferendis quo repudiandae ex ad beatae est exercitationem nemo in omnis tempora voluptatum amet id vitae eveniet deleniti eum, natus odit cumque culpa sapiente! Dicta provident, reiciendis unde tempore eius quasi et explicabo, distinctio quaerat quisquam sit consequatur illum repudiandae ducimus dolore magni laudantium dolorem impedit omnis optio voluptatum odit, reprehenderit nostrum. Facere provident dolorem ducimus autem obcaecati suscipit! Nulla!
+        </p>
+    </section>
+
+    <section>
+        <h2>Heading 5</h2>
+         
+        <p class="heading" id="h5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam dolorem harum commodi eligendi repudiandae blanditiis velit facere, architecto necessitatibus veritatis dolores accusantium culpa modi cumque, unde deserunt maxime consequatur est. Saepe cupiditate placeat laboriosam doloremque praesentium voluptatem soluta, sapiente aliquid architecto necessitatibus labore ducimus quasi in eos eum, laudantium, tenetur alias tempora fuga blanditiis sit voluptas corrupti ipsum. Rem quibusdam alias laudantium placeat? Corporis ducimus quasi asperiores doloribus, enim quisquam magnam eaque illum eius at accusamus repudiandae ex rem placeat commodi officia itaque. Quibusdam modi in quod vero ab maxime officia nihil eveniet iste, incidunt quas nam enim dolor excepturi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias aliquid assumenda reprehenderit cumque, iusto facilis laborum minus! Eligendi placeat sunt inventore ratione delectus, nam quia odio iusto tempora similique est sit voluptatum optio ab facere alias. Quaerat, perspiciatis eaque velit perferendis quo repudiandae ex ad beatae est exercitationem nemo in omnis tempora voluptatum amet id vitae eveniet deleniti eum, natus odit cumque culpa sapiente! Dicta provident, reiciendis unde tempore eius quasi et explicabo, distinctio quaerat quisquam sit consequatur illum repudiandae ducimus dolore magni laudantium dolorem impedit omnis optio voluptatum odit, reprehenderit nostrum. Facere provident dolorem ducimus autem obcaecati suscipit! Nulla!
+        </p>
+    </section>
+
+    <section>
+        <h2>Heading 6</h2>
+         
+        <p class="heading" id="h6">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam dolorem harum commodi eligendi repudiandae blanditiis velit facere, architecto necessitatibus veritatis dolores accusantium culpa modi cumque, unde deserunt maxime consequatur est. Saepe cupiditate placeat laboriosam doloremque praesentium voluptatem soluta, sapiente aliquid architecto necessitatibus labore ducimus quasi in eos eum, laudantium, tenetur alias tempora fuga blanditiis sit voluptas corrupti ipsum. Rem quibusdam alias laudantium placeat? Corporis ducimus quasi asperiores doloribus, enim quisquam magnam eaque illum eius at accusamus repudiandae ex rem placeat commodi officia itaque. Quibusdam modi in quod vero ab maxime officia nihil eveniet iste, incidunt quas nam enim dolor excepturi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias aliquid assumenda reprehenderit cumque, iusto facilis laborum minus! Eligendi placeat sunt inventore ratione delectus, nam quia odio iusto tempora similique est sit voluptatum optio ab facere alias. Quaerat, perspiciatis eaque velit perferendis quo repudiandae ex ad beatae est exercitationem nemo in omnis tempora voluptatum amet id vitae eveniet deleniti eum, natus odit cumque culpa sapiente! Dicta provident, reiciendis unde tempore eius quasi et explicabo, distinctio quaerat quisquam sit consequatur illum repudiandae ducimus dolore magni laudantium dolorem impedit omnis optio voluptatum odit, reprehenderit nostrum. Facere provident dolorem ducimus autem obcaecati suscipit! Nulla!
+        </p>
+    </section>
+</main>
+
+</body>
+</html>

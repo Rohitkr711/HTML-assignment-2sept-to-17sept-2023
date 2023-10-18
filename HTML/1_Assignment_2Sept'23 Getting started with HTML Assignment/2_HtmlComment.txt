@@ -1,0 +1,26 @@
+Q). Explain the purpose of comments in HTML?
+Ans: In HTML, comments are used to add notes or explanation within the code so a developer or programmer can read it. 
+     They don't affect how the web page looks and are helpful for documentation and understanding the code and browser
+     ignores it by default. Syntax of comments is "<!-- -->", and it can be apply on single line and on multiline as well.
+     Shortcut key for applying comment is CTRL + '/'.
+
+     Example - 
+     <!DOCTYPE html>
+     <html lang="en">
+     <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Html Comment</title>
+     </head>
+     <body>
+     <!-- <h1>Hello Duniya</h1> -->
+     <!-- <ol>
+        <li>list1</li>
+        <li>list2</li>
+        <li>list3</li>
+        <li>list4</li>
+     </ol> -->
+
+     <!-- NOTE:- ctrl + '/' is a shortcut key use for putting single and multiline comments. -->
+     </body>
+     </html> 

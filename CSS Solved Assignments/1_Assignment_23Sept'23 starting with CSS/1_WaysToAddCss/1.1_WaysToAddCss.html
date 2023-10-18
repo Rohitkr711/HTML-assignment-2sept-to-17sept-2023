@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ways to add CSS</title>
+    <!-- External CSS -->
+    <link rel="stylesheet" href="1_WaysToAddCss.css">
+</head>
+<!-- Internal CSS -->
+<style>
+    div{
+        background-color: black;
+        color: red;
+    }
+</style>
+<body>
+    <div id="div">
+        <h3 style="text-align: center;"><u>para-1</u></h3>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi praesentium facilis ea, animi culpa dicta quasi
+        aliquam ducimus nisi rem officiis dignissimos cumque voluptate consectetur? Impedit molestias ut iste esse.
+    </div>
+    <br>
+
+    <!-- In this below div element we are applying inline css -->
+
+    <!-- 
+        NOTE-: when we target same element with inline, internal and external then the inline styling will get more priority over internal and external and that tag takes all properties of inline CSS styling. 
+    -->
+    <div style="background-color: white; color: black; border: 2px solid red;">
+        <h3 style="text-align: center;"><u>para-2</u></h3>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor veniam laborum tenetur, eius aliquid
+        sit repellat earum nesciunt minima corporis culpa! Hic sequi maxime accusantium magnam animi reiciendis quam
+        ipsam.</div>
+    <br>
+    <div>
+        <h3 style="text-align: center;"><u>para-3</u></h3>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus dolorum illum explicabo, eos
+        mollitia autem perferendis deleniti vitae quis incidunt consequuntur iste laboriosam repudiandae totam dolores
+        veniam ipsum commodi amet!</div>
+</body>
+
+
+<!--
+We can add Css to html file by three different Ways-:
+
+1. External CSS - In this case we need to create a css file and then add it to html file with the help of link tag included 'rel' and href attribute.
+2. Internal CSS - Here we apply different css properties on different tags from inside of style tag which we use inside of html file before begining of body tag.
+3. Inline CSS - In case of inline css we applies styling properties inside of that perticular tag which we want to make stylish, and that is why it is called Inline css.   
+-->
+
+</html>

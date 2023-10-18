@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class Selector</title>
+</head>
+<style>
+    .container {
+        border: 2px solid black;
+    }
+
+    .container__p {
+        font-weight: bold;
+    }
+
+    .container__p--para1 {
+        background-color: orange;
+    }
+
+    .container__p--para2 {
+        background-color: whitesmoke;
+    }
+
+    .container__p--para3 {
+        background-color: green;
+    }
+</style>
+
+<body>
+    <div class="container">
+
+        <h2 style="text-align: center;">BEM Naming Convention</h2>
+        <p class="container__p container__p--para1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque,
+            magni?</p>
+        <p class="container__p container__p--para2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque,
+            illo?</p>
+        <p class="container__p container__p--para3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus,
+            ad?</p>
+    </div>
+
+</body>
+
+<!--
+NOTE-:
+
+1. BEM is a naming convention in css stands for Block Element Modifiers. So here in the above code the class 'container' is a class name of div block which is highest level of abstraction here represented through dot(.) only.
+
+2. All three p tag are elements of 'container'(block) that is why i have given 'container__p' class name to all p tag. Because in BEM all elements of block should be represented by block name followed by two underscore(__).
+
+3. In BEM modifier represents a variation of the block or element. It is represented by the block or element name followed by a single hyphen (-) and the modifier name, so here p tag has multiple variations that is why given its different class names like container__p--para1, container__p--para2 and container__p--para3.
+
+3.
+ -->
+
+</html>

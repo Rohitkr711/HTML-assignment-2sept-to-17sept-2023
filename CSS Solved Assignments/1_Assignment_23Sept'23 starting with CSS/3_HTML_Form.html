@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<style>
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    body {
+        /* border: 5px solid red; */
+        /* background: linear-gradient(to right, #cc33ff 0%, #ffff66 100%); */
+
+
+        background-image: url("../../../Img & Vid/l5up.png");
+        background-size: 100vw 100vh;
+        background-color: rgba(0, 0, 0, 0.4);
+        background-blend-mode: darken;
+        background-repeat: no-repeat;
+        height: 100vh;
+        width: 100vw;
+    }
+
+    .form {
+        /* border: 2px solid purple; */
+        width: 400px;
+        margin: auto;
+        width: 31%;
+        border-radius: 8px;
+        padding-left: 25px;
+        padding-right: 20px;
+        /* box-shadow: 0px 0px 50px 40px rgba(223, 234, 3, 0.2); */
+        box-shadow: 0 12px 15px 0 rgba(7, 90, 83, 0.2), 0 20px 50px 0 rgba(10, 20, 58, 50.59);
+        height: 90vh;
+        margin-top: 30px;
+        color: white;
+
+    }
+
+    .sp {
+        /* border: 2px solid red; */
+        display: inline-block;
+        /* width: 200px; */
+    }
+
+    p {
+        margin-bottom: 0px;
+        font-weight: bold;
+    }
+
+    #btn {
+        /* margin-left: auto; */
+        /* width: 15%; */
+        /* border: 2px solid red; */
+        margin-left: 390px;
+        border-radius: 5px;
+        background-color: black;
+        color: whitesmoke;
+        padding: 10px 10px;
+        font-weight: bold;
+
+    }
+
+    .eandp {
+        width: 213px;
+    }
+
+    .inpwid {
+        width: 450px;
+    }
+
+    .radio {
+        /* border: 2px solid green; */
+        margin-right: 25px;
+    }
+
+    .all {
+        margin-right: 70px;
+
+    }
+
+    .magazines {
+        /* border: 2px solid green; */
+        margin-right: 66px;
+    }
+
+    .nonfiction {
+        margin-right: 11px;
+    }
+
+    .electronic {
+        margin-right: 70px;
+
+    }
+
+    .male {
+        margin-right: 57px;
+
+    }
+
+    .inhouse {
+        margin-right: 27px;
+
+    }
+
+    #sp1 {
+        margin-right: 15px;
+
+    }
+
+    h2 {
+        /* border: 2px solid red; */
+        text-align: center;
+        padding-right: 0px;
+        padding-top: 8px;
+    }
+
+    input {
+        border-radius: 5px;
+        /* background-color: black; */
+        /* color: white; */
+        height: 20px;
+        padding-left: 5px;
+    }
+
+    input:hover{
+        background-color:rgb(30, 30, 28);
+        color: white;
+        
+    }
+      
+
+    textarea {
+        border-radius: 5px;
+        
+
+    }
+    textarea:hover {
+        background-color: black;
+        color: whitesmoke;
+    }
+
+
+    .uinp {
+        margin-top: 18px;
+        /* border: 4px solid red; */
+    }
+
+    .sig {
+        margin-top: 18px;
+    }
+
+    .gen {
+        margin-top: 18px;
+    }
+    #btns {
+        margin-top: 12px;
+    }
+    .btns2{
+        color: black;
+        padding: 3px 8px;
+        font-weight: bold;
+    }
+</style>
+
+<body>
+
+
+    <form class="form" action="" method="get">
+        <h2>Library Membership Form</h2>
+        <hr>
+        <div class="uinp">
+            <label for="Username">
+                <p>Username</p>
+            </label>
+            <input type="text" name="name" id="Username" class="inpwid" placeholder="Enter ful name">
+        </div>
+
+        <div class="uinp">
+            <label for="coursename">
+                <p>Course of study</p>
+            </label>
+            <input type="text" name="name" id="coursename" class="inpwid" placeholder="Enter course name">
+        </div>
+
+        <div class="uinp">
+
+            <label for="Regno">
+                <p>Registration Number</p>
+            </label>
+            <div>
+                <input type="text" name="RegId" id="Regno" class="inpwid" placeholder="Enter Reg no.">
+            </div>
+        </div>
+        <br>
+
+        <div>
+
+            <div class="sp" id="sp1">
+                <label for="Emailid">
+                    <p>Email</p>
+                </label>
+                <input type="email" name="Emailid" id="Emailid" class="eandp" placeholder="Enter email">
+
+            </div>
+            <div class="sp">
+                <label for="phno">
+                    <p>Phone Number</p>
+                </label>
+                <input type="tel" name="ph-no." id="phno" class="eandp" placeholder="Enter ph-no">
+
+            </div>
+        </div>
+
+        <div class="gen"></div>
+        <p>Gender</p>
+        <span class="male">
+
+            <input type="radio" name="gender" id="male">
+            <label for="male">Male</label>
+        </span>
+
+        <span class="female">
+
+            <input type="radio" name="gender" id="female">
+            <label for="female">Female</label>
+        </span>
+
+        <br><br>
+        <p>What will you be using the library for?</p>
+        <span class="radio">
+
+            <input type="radio" name="libuse" id="reference">
+            <label for="reference">Reference</label>
+        </span>
+
+        <span class="inhouse">
+
+            <input type="radio" name="libuse" id="in house reading">
+            <label for="in house reading">In-house reading</label>
+        </span>
+
+        <span class="radio">
+
+            <input type="radio" name="libuse" id="borrowing">
+            <label for="borrowing">Borrowing</label>
+        </span>
+
+        <br><br>
+
+        <p>what Section of the library would you like access to?</p>
+        <div>
+
+            <span class="all">
+
+                <input type="radio" name="section" id="all">
+                <label for="all">All</label>
+            </span>
+
+            <span class="magazines">
+
+                <input type="radio" name="section" id="Magazines">
+                <label for="Magazines">Magazines</label>
+            </span>
+
+            <span class="fiction">
+
+                <input type="radio" name="section" id="Fiction">
+                <label for="Fiction">Fiction</label>
+            </span>
+        </div>
+
+        <div>
+
+            <span class="nonfiction">
+
+                <input type="radio" name="section" id="Non-Fiction">
+                <label for="Non-Fiction">Non-Fiction</label>
+            </span>
+
+            <span class="electronic">
+
+                <input type="radio" name="section" id="Electronic">
+                <label for="Electronic">Electronic</label>
+            </span>
+
+            <span class="randr">
+
+                <input type="radio" name="section" id="Research & Reference">
+                <label for="Research & Reference">Research & Reference</label>
+            </span>
+        </div>
+
+        <div class="sig">
+
+            <p>Signature</p>
+            <div>
+                <textarea name="Usersignature" id="sign" cols="30" rows="2"></textarea>
+            </div>
+        </div>
+
+
+        <div id="btns">
+
+            <!-- <input class="btns2" type="reset" value="Reset"> -->
+            <!-- <input class="btns2" type="submit" value="submit"> -->
+            <button class="btns2">Reset</button>
+            <button class="btns2">Submit</button>
+
+        </div>
+
+        <div>
+            <button id="btn">Register</button>
+        </div>
+    </form>
+</body>
+
+</html>

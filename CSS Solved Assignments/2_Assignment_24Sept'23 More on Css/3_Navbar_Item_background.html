@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation bar</title>
+    <style>        
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .navbar {
+            background-color: rgb(78, 12, 67);
+            padding: 20px;
+            border: 4px solid rgb(240, 5, 181);
+            border-radius: 14px;
+        }
+
+        .navbar li {
+            list-style: none;
+            float: left;
+            margin-right: 40px;
+            
+            
+        }
+        
+        #it1{
+            border: 2px solid white;
+
+        }
+        #it2{
+            border: 2px solid rgb(233, 236, 14);
+
+        }
+        #it3{
+            border: 2px solid rgb(230, 9, 200);
+
+        }
+        #it4{
+            border: 2px solid rgb(234, 137, 0);
+
+        }
+        #it5{
+            border: 2px solid rgb(196, 4, 4);
+
+        }
+        
+        .navbar ul {
+            overflow: auto;
+            padding-left: 20px;
+            
+        }
+        
+        a {
+            text-decoration: underline;
+            color: white;
+        }
+
+        a:hover {
+            color: rgb(243, 27, 45);
+        }
+
+        .sbar {
+            float: right;
+            padding-right: 70px;
+
+        }
+
+        .sbar input {
+            width: 190px;
+            border-radius: 6px;
+            height: 25px;
+            /* padding: 2px; */
+            /* border: none; */
+        }
+
+        input:hover {
+            background-color: rgb(236, 241, 242);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li id="it1"><a href="">Home</a></li>
+                <li id="it2"><a href="">About Us</a></li>
+                <li id="it3"><a href="">Contact</a></li>
+                <li id="it4"><a href="">Blog</a></li>
+                <li id="it5"><a href="">Login</a></li>
+                <div class="sbar">
+                    <input type="search" name="" id="" placeholder="Search here">
+                </div>
+            </ul>
+        </nav>
+    </header>
+
+</body>
+
+</html>

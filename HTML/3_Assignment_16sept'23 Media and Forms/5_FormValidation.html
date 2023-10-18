@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+</head>
+
+<body>
+    <form action="/signup" style="border: 2px solid black; width: 300px;" method="get">
+        <h2 style="text-align: center;"><u>Sign-Up</u></h2>
+        <label for="firstname">Firstname:
+            <input type="text" name="" id="firstname" minlength="3" placeholder="Enter first name">
+        </label>
+        <br>
+        <br>
+        <label for="lastname">Lastname:
+            <input type="text" name="" id="lastname" minlength="3" placeholder="Enter last name">
+        </label>
+        <br>
+        <br>
+
+        <label for="usermail">Email:
+            <input type="email" name="" id="usermail" minlength="3" placeholder="Enter email">
+        </label>
+        <br>
+        <br>
+
+        <label for="userpassword">Password:
+            <input type="password" name="" id="userpassword" minlength="8" maxlength="12" placeholder="Enter password">
+        </label>
+        <br>
+        <br>
+
+
+        <label for="cpassword">Confirm Password:
+            <input type="password" name="" id="cpassword" minlength="8" maxlength="12" placeholder="Confirm password">
+        </label>
+        <br>
+        <br>
+
+
+        <label for="userage">Age:
+            <input type="number" name="" id="userage" min="0" max="80" placeholder="Enter age">
+        </label>
+        <br>
+        <br>
+
+
+        <fieldset style="width: 200px;">
+            <legend>Gender</legend>
+            <label for="gendertype1">Male</label>
+            <input type="radio" name="Gender" id="gendertype1">
+            <label for="gendertype2">Female</label>
+            <input type="radio" name="Gender" id="gendertype2">
+            <label for="gendertype3">Other</label>
+            <input type="radio" name="Gender" id="gendertype3">
+        </fieldset>
+        <br>
+
+        <input type="checkbox" name="t&c" id="t&c" required>
+        <label for="t&C">Terms & Conditions</label>
+<br>
+<br>
+
+        <input type="submit" value="Submit">
+        <br><br>
+    </form>
+    <br>
+    <hr>
+    <br>
+
+
+    <!-- SignIn Form -->
+        <form action="/signin" method="get" style="border: 2px solid black; width: 300px;">
+        <h2 style="text-align: center;"><u>Sign-In</u></h2>
+        <label for="email">Email:
+            <input type="email" name="" id="email" minlength="5" placeholder="Enter email" required>
+        </label>
+        <br>
+        <br>    
+        <label for="password">Password:
+            <input type="password" name="" id="password" placeholder="Enter password" required>
+        </label>
+        <br>
+        <br>
+        <input type="submit" value="Submit">
+        <br><br>
+
+    </form>
+</body>
+
+</html>

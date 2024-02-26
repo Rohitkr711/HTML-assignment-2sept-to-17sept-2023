@@ -1,0 +1,5 @@
+Q) Describe the usage of the comma operator in JavaScript and provide an example.
+Ans-> The comma operator in JavaScript is used to combine two or more expressions into one. It has a higher precedence than the
+      concatenation operator (+). The comma operator evaluates its expressions from left to right and returns the value of the 
+      final expression.
+      An example of using the comma operator is: a=b=9.7,c='pw';  

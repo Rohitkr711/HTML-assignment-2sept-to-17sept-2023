@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Container with text</title>
+</head>
+<style>
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+
+    }
+   .container{
+   border: 2px solid red;
+   display: grid;
+   gap: 10px;
+   padding: 2rem;
+   width: 40vw;
+   height: 40vh;
+   grid-template-columns: repeat(3,1fr);
+   grid-template-rows: repeat(2, 1fr);
+
+   }
+
+   .item{
+    background: rgba(244, 191, 142, 0.816);
+    border-radius: 5px;
+    padding: 1rem;
+    font-size: 2rem;
+    align-items: center;
+   }
+
+   .box1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+   }
+   .box2{
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+   }
+   .box3{   
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+   }
+   .box4{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+   }
+
+</style>
+<body>
+    <div class="container">
+        <div class="item box1">A</div>
+        <div class="item box2">B</div>
+        <div class="item box3">C</div>
+        <div class="item box4">D</div>
+    </div>
+</body>
+</html>

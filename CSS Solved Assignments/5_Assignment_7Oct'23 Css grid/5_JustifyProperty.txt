@@ -1,0 +1,13 @@
+Q). Explain the difference between justify items and justify self using code examples.
+Ans- In JavaScript, justify items and justify self are two CSS properties used to control the alignment of elements on a web page.The 
+     justify-items property aligns items on a container's existing content, while justify-self aligns an individual element relative to
+     its parent container.
+     Example of justify-items and justify-self:
+     .container {
+       display: flex;
+       justify-content: space-between;
+     }
+     .item {
+       justify-self: center; /* align the item to the center of its parent */
+     }
+

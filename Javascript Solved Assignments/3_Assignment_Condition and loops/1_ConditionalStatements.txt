@@ -1,0 +1,13 @@
+Q) What are conditional statements? Explain conditional statements with syntax and examples.
+Ans-> Conditional statements are programming constructs that allow code to be executed based on a specific condition. They are commonly
+      used in if-else statements, which test a condition and execute different code blocks based on whether the condition is true or
+      false. 
+      In most programming languages, if-else statements have a similar syntax, including a test condition, an optional else block, and
+      curly braces to enclose the code blocks.
+      For example, in Javascript, an if-else statement would look like this:
+      if (condition)
+         block of code will execute if condition is true
+      elseif (condition)
+         block of code will execute if condition is true(else if)
+      else:
+         block of code execute if neither previous conditions are true

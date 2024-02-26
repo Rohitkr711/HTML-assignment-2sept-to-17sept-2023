@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+</head>
+<style>
+    *{
+        box-sizing: border-box;
+    }
+    .image{
+        width: 33.33%;
+        height: 500px;
+        float: left;
+        padding: 0px 5px 0px 5px;
+        
+    }
+    @media (min-width:500px) and (max-width:800px){
+        .image{
+            width: 50%;
+        }
+    }
+    @media (max-width:500px){
+        .image{
+            width: 100%;
+        }
+    }
+</style>
+<body>
+    <div class="imggal">
+        <img class="image" src="https://fastly.picsum.photos/id/341/200/300.jpg?hmac=tZpxFpS1LmFfC4e_ChqA5I8JfUfJuwH3oZvmQ58SzHc" alt="Error">
+        <img class="image" src="https://fastly.picsum.photos/id/341/200/300.jpg?hmac=tZpxFpS1LmFfC4e_ChqA5I8JfUfJuwH3oZvmQ58SzHc" alt="Error">
+        <img class="image" src="https://fastly.picsum.photos/id/341/200/300.jpg?hmac=tZpxFpS1LmFfC4e_ChqA5I8JfUfJuwH3oZvmQ58SzHc" alt="Error">
+
+    </div>
+</body>
+</html>

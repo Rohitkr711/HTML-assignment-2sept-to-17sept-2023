@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation bar</title>
+</head>
+<style>
+    .navbar{
+        background-color: black;
+        display: flex;
+        height: 50px;
+        color: whitesmoke;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-around;
+    }
+    li{
+       list-style: none; 
+    }
+    @media (max-width:768px){
+        .navbar{
+            background-color: grey;
+            flex-direction: column;
+            height: 200px;
+
+        }
+
+    }
+</style>
+<body>
+    <nav class="navbar">
+        <li class="items">Home</li>
+        <li class="items">About</li>
+        <li class="items">Services</li>
+        <li class="items">Portfolio</li>
+        <li class="items">Contact</li>
+    </nav>
+</body>
+</html>

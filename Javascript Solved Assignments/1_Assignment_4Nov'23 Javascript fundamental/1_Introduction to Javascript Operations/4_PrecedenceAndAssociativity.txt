@@ -1,0 +1,6 @@
+Q) Discuss the precedence and associativity of operators in JavaScript. Why is understanding these concepts important?
+Ans-> In JavaScript, operators have precedence which determines the order in which calculations are performed. Associativity,
+      on the other hand, determines if the result of an expression depends on the order of the operands. Understanding these
+      concepts is crucial because it helps in writing bug-free and efficient code. Misunderstanding operator precedence and 
+      associativity can lead to unexpected resultor errors in the code. It is essential to follow the standard rules for 
+      operator precedence and associativity to ensure that the code behaves as intended.  

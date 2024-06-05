@@ -1,0 +1,34 @@
+{
+    "arrayOfObjects":[
+        {
+            "imgurl":"https://5.imimg.com/data5/SELLER/Default/2023/5/311011075/XK/DM/NR/80624061/nokia-purebook-s14.jpg",
+            "name": "Nokia PureBook X14 Core i5 10th Gen",
+            "Price": "57990rs",
+            "description":"Not provided"
+        },
+        {
+            "imgurl":"https://images-cdn.ubuy.co.in/6350054b5bb1fd355613f365-asus-rog-zephyrus-g15-gaming.jpg",
+            "name": "ASUS ROG Zephyrus G14 Ryzen 9 Octa Core 4900h",
+            "Price": "108990rs",
+            "description":"Not provided"
+        },
+        {
+            "imgurl":"https://m.media-amazon.com/images/I/61vBoUXhwSL._AC_UF1000,1000_QL80_.jpg",
+            "name": "Acer Aspire 7 Ryzen 5 Quad core 3550h",
+            "Price": "50990rs",
+            "description":"Not provided"
+        },
+        {
+            "imgurl":"https://i.ebayimg.com/images/g/aCcAAOSwyTBl0zbE/s-l1200.jpg",
+            "name": "Asus Vivobook Gaming Core i5 9th Gen",
+            "Price": "55440rs",
+            "description":"Not provided"
+        },
+        {
+            "imgurl":"https://m.media-amazon.com/images/I/71uqfoR-hWL._AC_UF894,1000_QL80_.jpg",
+            "name": "Lenevo Ideapad Core i5 9th Gen",
+            "Price": "52440rs",
+            "description":"Not provided"
+        }
+    ]
+}

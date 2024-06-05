@@ -1,0 +1,9 @@
+Q) List and briefly explain some common Browser APIs available to JavaScript developers.
+Ans: There are several browser APIs avaie to JavaScript developers, which allow them to interact with different features of the browser
+     and create dynamic and interactive web pages. Here is a list of some common browser APIs:
+
+     -> Document Object Model (DOM): Allows JavaScript to manipulate and interact with the web page's HTML structure.
+     -> Browser Storage: Allows JavaScript to store and retrieve data in the local storage and session storage of the browser.
+     -> JavaScript Event Object Model: Allows JavaScript to work with different events on the web page, such as clicks, hovers, and 
+        keyboard inputs.
+     -> Cookie API: Allows JavaScript to work with cookies, which can be used for authentication, session  

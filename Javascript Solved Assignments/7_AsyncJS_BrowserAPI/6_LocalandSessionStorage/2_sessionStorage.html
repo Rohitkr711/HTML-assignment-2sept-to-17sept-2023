@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Session Storage</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+
+<body>
+    <h1>TODO APP</h1>
+    <label for="item"></label>
+    <input type="text" name="" id="item" value="" placeholder="Add a task">
+    <button id="btn">Add Task</button>
+    <h3>Task List:</h3>
+    <ol id="list"></ol>
+    
+    <!-- JS Starts -->
+    <script>
+        const valueList = document.getElementById('item')
+        const itemList = document.getElementById('list');
+        const addButton = document.querySelector('#btn');
+        
+        if(sessionStorage.length===0){
+
+            var count=sessionStorage.length+1;
+        }
+        else{
+            count=sessionStorage.length;
+        }
+
+        
+        // localStorage.clear(); 
+        addButton.addEventListener('click',function add(){
+           sessionStorage.setItem(`${count}`,valueList.value); 
+           ++count;
+           let todoList = document.createElement('li');
+           todoList.innerText = valueList.value; 
+           itemList.appendChild(todoList);
+           valueList.value = '';
+        })
+
+        if(sessionStorage.length>0){
+            for (let i=0;i<sessionStorage.length;++i) {
+                
+                let todoList = document.createElement('li');
+                todoList.innerText=sessionStorage.getItem(`${i+1}`);
+                itemList.appendChild(todoList);
+            }
+
+        }
+    </script>
+    <!-- JS Ends -->
+</body>
+
+</html>
